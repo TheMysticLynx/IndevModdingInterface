@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndevModdingInterface", "IndevModdingInterface\IndevModdingInterface.csproj", "{6707D918-D791-4719-AB18-B508C5504172}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{F3AD5E39-1C49-4382-BA1B-5C4F0D7DD1A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{6707D918-D791-4719-AB18-B508C5504172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6707D918-D791-4719-AB18-B508C5504172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6707D918-D791-4719-AB18-B508C5504172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3AD5E39-1C49-4382-BA1B-5C4F0D7DD1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3AD5E39-1C49-4382-BA1B-5C4F0D7DD1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3AD5E39-1C49-4382-BA1B-5C4F0D7DD1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3AD5E39-1C49-4382-BA1B-5C4F0D7DD1A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
