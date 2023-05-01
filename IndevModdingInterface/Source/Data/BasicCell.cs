@@ -9,6 +9,7 @@ namespace Modding.PublicInterfaces.Cells
         public Instance Instance { get; }
         public CellTransform Transform { get; set; }
         public CellTransform PreviousTransform { get; set; }
+        public short SpriteVariant;
         public Color Color { get; set; }
         public bool Frozen { get; set; }
 
@@ -19,6 +20,7 @@ namespace Modding.PublicInterfaces.Cells
             PreviousTransform = transform;
             Color = Color.white;
             Frozen = false;
+            SpriteVariant = 0;
         }
 
         public BasicCell(Instance instance, CellTransform transform)
@@ -28,6 +30,7 @@ namespace Modding.PublicInterfaces.Cells
             PreviousTransform = transform;
             Color = Color.white;
             Frozen = false;
+            SpriteVariant = 0;
         }
     }
 }
