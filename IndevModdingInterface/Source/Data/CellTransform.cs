@@ -6,15 +6,22 @@ namespace Modding.PublicInterfaces.Cells
     //Represents a cell in the game world
     public struct CellTransform
     {
-        public Vector2Int Position;
-        public Direction Direction;
-        public int ZIndex;
+        private ushort _x;
+        private ushort _y;
+        public Vector2Int Position => new Vector2Int(_x, _y);
+        public byte DirectionInt;
 
-        public CellTransform(Vector2Int position, Direction rotation, int zIndex = 0)
+        public Direction Direction
         {
-            Position = position;
-            Direction = rotation;
-            ZIndex = zIndex;
+            get => Direction.FromInt(DirectionInt);
+            set => DirectionInt = (byte)value.AsInt;
+        }
+
+        public CellTransform(Vector2Int position, Direction rotation)
+        {
+            _x = (ushort)position.x;
+            _y = (ushort)position.y;
+            DirectionInt = (byte)rotation.AsInt;
         }
 
         public CellTransform Rotate(int amount)
@@ -25,7 +32,8 @@ namespace Modding.PublicInterfaces.Cells
 
         public CellTransform SetPosition(Vector2Int position)
         {
-            Position = position;
+            _x = (ushort)position.x;
+            _y = (ushort)position.y;
             return this;
         }
 
