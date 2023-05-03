@@ -304,6 +304,10 @@
         <Compile Include="Source\Data\CellTransform.cs" />
         <Compile Include="Source\Data\Direction.cs" />
         <Compile Include="Source\Data\Instance.cs" />
+        <Compile Include="Source\Encoding\DecodeResult.cs" />
+        <Compile Include="Source\Encoding\ILevelFormat.cs" />
+        <Compile Include="Source\Encoding\Level.cs" />
+        <Compile Include="Source\Encoding\LevelProperties.cs" />
         <Compile Include="Source\Implementation\CellGridBoundsException.cs" />
         <Compile Include="Source\Implementation\CellProcessor.cs" />
         <Compile Include="Source\Implementation\ICellGrid.cs" />
