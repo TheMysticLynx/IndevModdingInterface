@@ -1,8 +1,7 @@
-﻿using IndevModdingInterface.Source;
-using Modding.PublicInterfaces.Cells;
+﻿using Modding.PublicInterfaces.Cells;
 using UnityEngine;
 
-namespace Encoding
+namespace CellEncoding
 {
     public struct DecodeResult
     {
@@ -11,6 +10,6 @@ namespace Encoding
         public string Format;
         public BasicCell[] Cells;
         public Vector2Int[] DragSpots;
-        public LevelProperties LevelProperties;
+        public ILevelProperties LevelProperties;
     }
 }

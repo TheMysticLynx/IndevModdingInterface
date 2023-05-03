@@ -306,7 +306,7 @@
         <Compile Include="Source\Data\Instance.cs" />
         <Compile Include="Source\Encoding\DecodeResult.cs" />
         <Compile Include="Source\Encoding\ILevelFormat.cs" />
-        <Compile Include="Source\Encoding\Level.cs" />
+        <Compile Include="Source\Encoding\ILevel.cs" />
         <Compile Include="Source\Encoding\LevelProperties.cs" />
         <Compile Include="Source\Implementation\CellGridBoundsException.cs" />
         <Compile Include="Source\Implementation\CellProcessor.cs" />

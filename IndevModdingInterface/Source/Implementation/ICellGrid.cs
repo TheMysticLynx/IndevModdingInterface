@@ -27,6 +27,9 @@ namespace Modding
         public BasicCell? MoveCell(BasicCell cell, Vector2Int newPos);
         public BasicCell RotateCell(BasicCell cell, Direction newDirection);
 
+        public bool IsDraggable(int x, int y);
+        public Vector2Int[] GetDragSpots();
+
         public BasicCell? GetCell(int x, int y);
         public BasicCell? GetCell(Vector2Int pos);
         public bool PushCell(BasicCell cell, Direction direction, int force);

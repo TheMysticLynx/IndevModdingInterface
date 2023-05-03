@@ -1,6 +1,6 @@
 using System.Collections.Generic;
-using Encoding;
 using JetBrains.Annotations;
+using CellEncoding;
 
 namespace Modding
 {
