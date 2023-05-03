@@ -12,6 +12,7 @@
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <LangVersion>9</LangVersion>
+        <Nullable>enable</Nullable>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -37,7 +38,7 @@
         <Reference Include="System.Core" />
         <Reference Include="System.Xml" />
         <Reference Include="UnityEngine">
-          <HintPath>D:\Unity Hub\2022.2.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+          <HintPath>..\..\..\..\..\..\Applications\Unity\Hub\Editor\2022.2.13f1\Unity.app\Contents\Managed\UnityEngine.dll</HintPath>
         </Reference>
     </ItemGroup>
     <ItemGroup>

@@ -2,7 +2,7 @@
 <package  xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
     <metadata>
         <id>Indev.NET</id>
-        <version>8.0</version>
+        <version>9.0.5</version>
         <title>Indev Modding Interface</title>
         <authors>Mystic</authors>
         <owners>Mystic</owners>

@@ -2,11 +2,11 @@ using Modding;
 
 namespace CellEncoding
 {
-    public class ILevel
+    public interface ILevel
     {
-        public int Width => Properties.Width;
-        public int Height => Properties.Height;
-        public ICellGrid CellGrid;
-        public ILevelProperties Properties;
+        public int Width { get; }
+        public int Height { get; }
+        public ICellGrid CellGrid { get; }
+        public ILevelProperties Properties { get; }
     }
 }
