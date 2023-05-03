@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package  xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
     <metadata>
-        <id>indev.moddingInterface</id>
-        <version>5.0</version>
+        <id>Indev.NET</id>
+        <version>8.0</version>
         <title>Indev Modding Interface</title>
         <authors>Mystic</authors>
         <owners>Mystic</owners>
@@ -12,11 +12,12 @@
         <description>Modding interface for Cell Machine Indev</description>
         <releaseNotes>Texture variants support</releaseNotes>
         <dependencies>
-            <dependency id="" />
+            <group targetFramework=".NET4.8" />
         </dependencies>
         <summary>Cell Machine Indev Modding API</summary>
     </metadata>
     <files>
-        <file src="" target="" />
+        <file src="IndevModdingInterface\bin\Debug\*.dll" target="lib\net4.8" />
+        <file src="IndevModdingInterface\bin\Debug\*.pdb" target="lib\net4.8" />
     </files>
 </package>
