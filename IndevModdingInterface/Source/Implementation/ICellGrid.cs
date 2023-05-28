@@ -13,6 +13,9 @@ namespace Modding
         public int Width { get; }
         public int Height { get; }
 
+        public int Step { get; }
+
+        public event EventHandler OnStep;
         public event Action<BasicCell>? OnCellAdded;
         public event Action<BasicCell>? OnCellRemoved;
         public event Action<BasicCell, CellTransform>? OnCellChanged;

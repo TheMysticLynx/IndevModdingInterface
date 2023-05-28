@@ -38,10 +38,11 @@
         <Reference Include="System.Core" />
         <Reference Include="System.Xml" />
         <Reference Include="UnityEngine">
-          <HintPath>..\..\..\..\..\..\Applications\Unity\Hub\Editor\2022.2.13f1\Unity.app\Contents\Managed\UnityEngine.dll</HintPath>
+          <HintPath>D:\Unity Hub\2022.2.16f1\Editor\Data\Managed\UnityEngine.dll</HintPath>
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Source\Attributes\CellCategory.cs" />
         <Compile Include="Source\Attributes\LockRotation.cs" />
         <Compile Include="Source\Data\BasicCell.cs" />
         <Compile Include="Source\Data\CellTransform.cs" />
